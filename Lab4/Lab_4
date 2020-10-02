@@ -1,0 +1,28 @@
+1.
+/
+2. 
+/
+3.
+Pour sauvegarder le contenu de history --> history > history.txt 
+
+4. 
+Pour mettre bout à bout et donc concaténer le contenu de sardar dans un ficheier texte --> cat sardar/* > sardar_power.txt 
+
+5.
+Pour savoir le nombre de lignes d'un fichier texte --> wc -l sardar_power.txt
+--> 1980 lignes dans le fichier sardar  
+Pour savoir le nombre de mots d'un fichier texte --> wc -w sardar_power.txt
+--> 16783 mots 
+
+6.
+--> Afficher toutes les lignes contenant singh --> grep -i singh sardar_power.txt 
+
+7. 
+Supprimer le fichier sardar_power.txt --> rm sardar_power.txt
+
+8.
+Pour afficher toutes les lignes des fichiers du répertoire sardar/ qui contiennent le mot singh --> grep -ri singh sardar
+
+9.
+Nombres de lignes ou apparaît singh dans les fichiers txt de sardar --> grep -ri singh sardar | wc -l
+--> 123 lignes 
