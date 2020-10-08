@@ -1,0 +1,342 @@
+    1  ls 
+    2  cd ..
+    3  ls
+    4  cd Desktop/
+    5  ls
+    6  cd ..
+    7  ls
+    8  sudo apt install git gitk git-email
+    9  git config --global user.name "Arno"
+   10  git config --global user.email arno.quere29@laposte.net
+   11  git config --global user.name 
+   12  git config --global user.email 
+   13  mdkir Lab_4
+   14  mkdir Lab_4
+   15  ls 
+   16  cd lab_4
+   17  cd Lab_4/
+   18  ls
+   19  git init 
+   20  vim test
+   21  sudo apt install vim 
+   22  cd..
+   23  LS
+   24  ls
+   25  cd ~
+   26  ls
+   27  sudo apt install vim 
+   28  vim nono
+   29  sudo apt install vim 
+   30  ls
+   31  cd Lab_4/
+   32  sudo apt install vim 
+   33  ls
+   34  LS
+   35  ls
+   36  sudo apt install vim 
+   37  sudo apt update command
+   38  vi --version
+   39  vim 
+   40  apt-get install vim 
+   41  ls
+   42  vim toto
+   43  vim-tiny toto
+   44  sudo apt install vim 
+   45  cd Lab_4/
+   46  ls
+   47  git clone https://github.com/khachicha/5AS05-partie4.git
+   48  ls
+   49  cd 5AS05-partie4/
+   50  ls
+   51  cd sardar/
+   52  ls
+   53  grep -ri singh sardar
+   54  cd ..
+   55  grep -ri singh sardar/sardar
+   56  ls
+   57  grep -ri singh sardar/
+   58  grep -ri singh sardar | wc -l 
+   59  grep -ri singh,santa sardar | wc -l 
+   60  grep -ri singh/santa sardar | wc -l 
+   61  grep -ri santa sardar | wc -l 
+   62  grep -ri 'santa' 'singh' sardar | wc -l
+   63  grep -ri 'santa'| 'singh' sardar | wc -l
+   64  grep -ri 'santa singh' sardar | wc -l
+   65  grep -ri 'santa| singh' sardar | wc -l
+   66  grep -ri 'santa|singh' sardar | wc -l
+   67  egrep -w 'santa|singh' sardar
+   68  egrep -w 'santa|singh' sardar | wc -l 
+   69  egrep -ri 'santa|singh' sardar | wc -l 
+   70  grep -ri 'singh' sardar | wc -l
+   71  grep -ri 'santa' sardar | wc -l
+   72  grep -ri 'santa|singh' sardar | wc -l
+   73  grep -w "santa" sardar
+   74  grep -w "santa" sardar/
+   75  grep -ri santa|singh sardar | wc -l
+   76  grep -ri "santa|singh" sardar | wc -l
+   77  grep -ri 'santa|singh' sardar | wc -l
+   78  egrep -ri 'santa|singh' sardar | wc -l 
+   79  ls 
+   80  cd sardar/
+   81  ls
+   82  grep -i 'sardar|singh' sardar1.txt
+   83  ls
+   84  grep -i 'sardar' sardar1.txt
+   85  grep -i 'sardar'|'singh' sardar1.txt
+   86  cd Lab_4/
+   87  LS
+   88  ls
+   89  cd 5AS05-partie4/
+   90  ls
+   91  egrep -ri 'santa|singh' sardar | wc -l 
+   92  egrep -ri 'santa|singh'-'banta' sardar | wc -l 
+   93  LS -L
+   94  ls -l
+   95  ls -l.txt
+   96  ls -.txt
+   97  find . -type f -name "*.txt"
+   98  ls
+   99  mkdir test-commande-locate
+  100  ls
+  101  cp answering-machine.txt ~/Lab_4/5AS05-partie4/test-commande-locate/
+  102  ls
+  103  cd test-commande-locate/
+  104  lq
+  105  ls
+  106  cd ..
+  107  l
+  108  ls
+  109  locate.answering-machine.txt
+  110  locate .answering-machine.txt
+  111  ls
+  112  locate .answering-machine.txt
+  113  rm answering-machine.txt 
+  114  ls
+  115  locate .answering-machine.txt
+  116  ls
+  117  cd test-commande-locate/
+  118  ls
+  119  cd ..
+  120  uptdatedb
+  121  locate .answering-machine.txt
+  122  uptdatedb
+  123  uptdated
+  124  uptdatedb.
+  125  sudo uptdatedb
+  126  cd ~
+  127  sudo updatedb
+  128  locate .answering-machine.txt
+  129  locate 
+  130  locate sardar
+  131  locate answering-machine 
+  132  ls
+  133  cd Lab_4/
+  134  LS
+  135  ls
+  136  cd 5
+  137  cd 5AS05-partie4/
+  138  ls
+  139  mkdir test2
+  140  ls
+  141  cd test-commande-locate/
+  142  ls
+  143  cp answering-machine.txt ~/Lab_4/5AS05-partie4/test2/
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd test2/
+  148  ls
+  149  cd <..
+  150  ls
+  151  cd Lab_4/
+  152  ls
+  153  cd 5AS05-partie4/
+  154  ls
+  155  rm test-commande-locate/
+  156  ls
+  157  rm -r test-commande-locate/
+  158  ls
+  159  cd test2/
+  160  ls
+  161  cd ..
+  162  cd ~
+  163  locate answering-machine 
+  164  sudo updatedb 
+  165  locate answering-machine 
+  166  cd Lab_4/
+  167  cd 5AS05-partie4/
+  168  ls
+  169  egrep -ri 'santa' sardar | wc -l 
+  170  egrep -ri 'singh' sardar | wc -l 
+  171  egrep -ri 'santa|singh' sardar | wc -l 
+  172  egrep -ri 'santa|singh'-'banta' sardar | wc -l 
+  173  diff noyau.v1 noyau.v2
+  174  egrep -ri 'santa'+'singh' sardar | wc -l 
+  175  egrep -ri 'singh' sardar | wc -l 
+  176  grep -ri 'singh' sardar | wc -l 
+  177  egrep -ri 'santa|singh'-'banta' sardar | wc -l 
+  178  egrep -ri 'singh'-'banta' sardar | wc -l 
+  179  grep -rnwEic '(santa.*singh|singh.*santa)' sardar | wc -l 
+  180  cd sardar/
+  181  grep -rnwEic '(santa.*singh|singh.*santa)' sardar | wc -l 
+  182  grep -rnwEic '(santa.*singh|singh.*santa)' | wc -l 
+  183  ls
+  184  grep -rnwEic '(santa.*singh|singh.*santa)
+  185  cd ..
+  186  LS
+  187  ls
+  188  cd Lab_4/
+  189  cd 5AS05-partie4/
+  190  cd sardar/
+  191  grep -rnwEic '(santa.*singh|singh.*santa)'
+  192  grep -i singh sardar/* | grep -i santa | wc -l
+  193  cd ..
+  194  grep -i singh sardar/* | grep -i santa | wc -l
+  195  grep -i singh-banta sardar/* | grep -i santa-banta | wc -l 
+  196  grep -i singh sardar/* | grep -i santa sardar/* | wc -l
+  197  grep -i singh-banta sardar/* | grep -i santa-banta | wc -l 
+  198  ls
+  199  diff noyau.V1 noyau.V2
+  200  diff noyau.v1 noyau.v2
+  201  mkdir update.patch 
+  202  ls
+  203  diff noyau.v1 noyau.v2 > update.patch 
+  204  rm -r update.patch/
+  205  ls
+  206  touch update.patch 
+  207  ls
+  208  diff noyau.v1 noyau.v2 > update.patch 
+  209  ls
+  210  cd update.patch/
+  211  patch noyau.V1 < update.patch 
+  212  ls
+  213  diff noyau.V1 noyau.V2
+  214  ls
+  215  patch noyau.v1 < update.patch 
+  216  ls
+  217  rm noyau.V1.orig
+  218  ls
+  219  diff noyau.v1 noyau.v2
+  220  commande grep -i singh sardar/* | grep -i santa | wc -l
+  221  cd ~
+  222  ls
+  223  mv Lab_4/ ~/Desktop/
+  224  ls
+  225  cd Desktop/
+  226  ls
+  227  cd Lab_4/
+  228  ls
+  229  cd 5AS05-partie4/
+  230  LS
+  231  ls
+  232  diff noyau.v1 noyau.v2
+  233  locate answering-test
+  234  mv test2 test-commmande-locate
+  235  ls
+  236  sudo updatedb 
+  237  ls
+  238  locate answering-test
+  239  cd test-commmande-locate/
+  240  ls
+  241  cd ..
+  242  locate answering-machine
+  243  diff noyau.v1 noyau.v2
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  cd 2
+  248  cd ~
+  249  ls
+  250  cd Desktop/
+  251  ls
+  252  mv -r Lab_4/ Lab4/
+  253  mv  Lab_4/ Lab4/
+  254  ls
+  255  mkdir
+  256  mkdir lab4
+  257  ls
+  258  cd lab4/
+  259  ls
+  260  git init 
+  261  git clone https://github.com/Arno-hub/lab4.git
+  262  ls
+  263  cd lab4/
+  264  ls
+  265  cd ~
+  266  ls
+  267  cd D
+  268  cd Desktop/
+  269  ls
+  270  cd lab4/
+  271  ls
+  272  cd lab4/
+  273  ls
+  274  rm noyau.v2
+  275  ls
+  276  rm noyau.v1
+  277  ls
+  278  cd sardar/
+  279  ls
+  280  cd ..
+  281  ls
+  282  cd Lab4/
+  283  LS
+  284  Ls
+  285  ls
+  286  cd ..
+  287  ls
+  288  rm answering-machine.txt 
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd ..
+  293  ls
+  294  cd Lab4/
+  295  LS
+  296  ls
+  297  cd 5AS05-partie4/
+  298  ls
+  299  cp noyau.v1 ~/Desktop/lab4/lab4/
+  300  cp noyau.v2 ~/Desktop/lab4/lab4/
+  301  cd test-commmande-locate/
+  302  ls
+  303  cd ..
+  304  cp test-commmande-locate/ ~/Desktop/lab4/lab4/
+  305  cp -r test-commmande-locate/ ~/Desktop/lab4/lab4/
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd ..
+  310  ls
+  311  cd lab4/
+  312  ls
+  313  cd lab4/
+  314  ls
+  315  diff noyau.v1 noyau.v2 
+  316  ls
+  317  diff noyau.v1 noyau.v2 
+  318  locate answering-machine 
+  319  cd test-commmande-locate/
+  320  ls
+  321  sudo updatedb
+  322  locate answering-machine 
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd La
+  330  cd Lab4/
+  331  cd 5AS05-partie4/
+  332  ls
+  333  cp update.patch ~/Desktop/lab4/lab4/
+  334  cd ~
+  335  cd D
+  336  cd Desktop/
+  337  cd lab4/
+  338  ls
+  339  cd Lab4/
+  340  ls
+  341  history 
+  342  history > history_fin_TP4.txt
