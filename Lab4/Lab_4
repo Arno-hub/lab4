@@ -26,3 +26,23 @@ Pour afficher toutes les lignes des fichiers du répertoire sardar/ qui contienn
 9.
 Nombres de lignes ou apparaît singh dans les fichiers txt de sardar --> grep -ri singh sardar | wc -l
 --> 123 lignes 
+
+10.
+Nombre de ligne ou apparait santa et singh  --> commande grep -i singh sardar/* | grep -i santa | wc -l
+--> 42 lignes 
+
+11. 
+
+12. Trouver tous les fichiers avec la même extension .txt --> commande --> find . -type f -name "*.txt"
+
+13. Lorsqu'on lance la commande locate .answering-machine.txt, après avoir mis le fichier answering-machine.txt dans le répertoire test-commande-locate.
+On remarque que l'execution de la commande ne fait rien, on arrive pas à détecter le fichier car son path à changé et que les données n'ont pas été mis à jour 
+
+14. Après avoir lancé la commande sudo updatedb qui met à jour les modifications effectuées, on relance la commande --> locate answerign-machine --> On obtient bien l'affichage du path jusqu'au fichier désiré (answerign-machine)
+qui se situe bien dans le répertoire test-commande-locate.
+
+15. Pour voir la différence entre les deux fichiers noyaux --> commande diff noyau.v1 noyau.v2 --> On observe que la différence se situe au niveau de la version des patchs 
+noyau.V1 --> patchlevel=01 alors que noyau.v2--> patchlevel=02. Il y a aussi une différence au niveau des sous niveaux --> Pour le noyau.V1 =-rc1 et le noyau.V2=-rc2
+
+16.Pour appliquer le patch créé au noyau.v1 on applique la commande --> patch noyau.v1 < update.patch 
+On applique à nouveau la commande diff noyau.v1 noyau.v2 et on remarque qu'il n'y a plus de différence entre les deux fichiers noyaux ce qui signifie que le patch à fonctionné. 
