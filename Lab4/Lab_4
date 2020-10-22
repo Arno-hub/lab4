@@ -32,6 +32,9 @@ Nombre de ligne ou apparait santa et singh  --> commande grep -i singh sardar/* 
 --> 42 lignes 
 
 11. 
+Pour compter cette fois ci uniquement les lignes qui contiennent les mots santa et singh mais pas banta. On utilise la commande suivante : 
+grep -i singh sardar/* | grep -i santa | grep -i -v banta | wc -l. Avec -v permettant d'exclure le mot 'banta'.
+
 
 12. Trouver tous les fichiers avec la même extension .txt --> commande --> find . -type f -name "*.txt"
 
