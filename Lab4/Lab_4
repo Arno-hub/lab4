@@ -6,7 +6,7 @@
 Pour sauvegarder le contenu de history --> history > history.txt 
 
 4. 
-Pour mettre bout à bout et donc concaténer le contenu de sardar dans un ficheier texte --> cat sardar/* > sardar_power.txt 
+Pour mettre bout à bout et donc concaténer le contenu de sardar dans un fichier texte --> cat sardar/* > sardar_power.txt 
 
 5.
 Pour savoir le nombre de lignes d'un fichier texte --> wc -l sardar_power.txt
@@ -28,13 +28,12 @@ Nombres de lignes ou apparaît singh dans les fichiers txt de sardar --> grep -r
 --> 123 lignes 
 
 10.
-Nombre de ligne ou apparait santa et singh  --> commande grep -i singh sardar/* | grep -i santa | wc -l
+Nombre de lignes où apparaît santa et singh  --> commande grep -i singh sardar/* | grep -i santa | wc -l
 --> 42 lignes 
 
 11. 
 Pour compter cette fois ci uniquement les lignes qui contiennent les mots santa et singh mais pas banta. On utilise la commande suivante : 
 grep -i singh sardar/* | grep -i santa | grep -i -v banta | wc -l. Avec -v permettant d'exclure le mot 'banta'.
-
 
 12. Trouver tous les fichiers avec la même extension .txt --> commande --> find . -type f -name "*.txt"
 
@@ -46,6 +45,7 @@ qui se situe bien dans le répertoire test-commande-locate.
 
 15. Pour voir la différence entre les deux fichiers noyaux --> commande diff noyau.v1 noyau.v2 --> On observe que la différence se situe au niveau de la version des patchs 
 noyau.V1 --> patchlevel=01 alors que noyau.v2--> patchlevel=02. Il y a aussi une différence au niveau des sous niveaux --> Pour le noyau.V1 =-rc1 et le noyau.V2=-rc2
+ON stocke la différence entre les deux noyaux dans un patch nommée update.patch. 
 
 16.Pour appliquer le patch créé au noyau.v1 on applique la commande --> patch noyau.v1 < update.patch 
 On applique à nouveau la commande diff noyau.v1 noyau.v2 et on remarque qu'il n'y a plus de différence entre les deux fichiers noyaux ce qui signifie que le patch à fonctionné. 
